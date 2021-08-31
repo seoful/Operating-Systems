@@ -9,6 +9,6 @@ int main()
     a = INT_MAX;
     b = FLT_MAX;
     c = DBL_MAX;
-    printf("int: %d,\nfloat: %f,\ndouble: %f",a,b,c);
+    printf("int size: %d, int value: %d,\nfloat size: %d, float value %f,\ndouble size: %d, double value: %f",sizeof(a),a,sizeof(b),b,sizeof(c),c);
     return 0;
 }
