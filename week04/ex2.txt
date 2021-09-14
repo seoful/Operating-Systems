@@ -1,0 +1,2 @@
+8 processes are created because every process is doubling recurrently until it gets to the third level. So, the number is 2^2 = 4.
+When we call fork() five times 2^5 = 32 processes will be created
